@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menuGroup_Main">
+        <item
+            android:id="@+id/about_menu"
+            android:title="ABOUT"
+            android:orderInCategory="1"/>
+        <item
+            android:id="@+id/min_menu"
+            android:title="MIN"
+            android:orderInCategory="2"/>
+        <item
+            android:id="@+id/max_menu"
+            android:title="MAX"
+            android:orderInCategory="3"/>
+        <item
+        android:id="@+id/avg_menu"
+        android:title="AVG"
+        android:orderInCategory="4"/>
+
+        <item
+            android:id="@+id/exit_menu"
+            android:title="EXIT"
+            android:orderInCategory="5"/>
+    </group>
+
+</menu>
